@@ -25,6 +25,8 @@ github_username:  Tarasjan
 # Build settings
 markdown: kramdown
 theme: jantar-theme
+sass:
+    sass_dir: jantar-theme/_sass
 plugins:
   - jekyll-feed
 

@@ -1,4 +1,16 @@
 ---
 title: Personal page of Jan Taras
 ---
-{{ content }}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="/assets/css/styles.css" ref="stylesheet">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <h1>{{ "Coming soon!" | upcase }}</h1>
+    <table><tr><td>About</td><td>Blog</td><td>Contact</td></tr></table>
+
+    {{content}}
+  </body>
+</html>

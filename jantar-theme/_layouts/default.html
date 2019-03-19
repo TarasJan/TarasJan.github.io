@@ -4,13 +4,17 @@ title: Personal page of Jan Taras
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="jantar-theme/assets/css/styles.scss" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "jantar-theme/assets/css/main.css" | prepend: site.baseurl }}">
+    {% include contact_icons.html %}
     <title>{{ page.title }}</title>
   </head>
   <body>
-    <h1>{{ "Coming soon!" | upcase }}</h1>
-    <table><tr><td>About</td><td>Blog</td><td>Contact</td></tr></table>
-
-    {{content}}
+    <header class="">{{ "Personal Page of Jan Taras" }}</header>
+    <nav><table><tr><td>About</td><td>Blog</td><td>Contact</td></tr></table></nav>
+    <div class="main_block">
+      <aside>Navigation</aside>
+      <article>{{content}}</article>
+    </div>
+    {% include footer.html %}
   </body>
 </html>

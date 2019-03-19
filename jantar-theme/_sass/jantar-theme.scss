@@ -1,0 +1,51 @@
+
+body {
+    margin: 0px auto;
+    text-align: center;
+    background-color: $light_red;
+}
+
+header {
+    background-image: linear-gradient($light_red, $crimson);
+    font-size: 30px;
+    padding: 10px 0px;
+}
+
+nav {
+    background-color: $crimson;
+}
+
+table {
+    width: 60%;
+    margin: 0px auto;
+}
+
+.main_block {
+    display: flex;
+    align-items: stretch;
+    
+    aside {
+        width: 20%;
+        height: 100%;
+        background-color: $light_crimson;
+    }
+
+    article {
+        margin-left: 10%;
+        margin-right: 30%;
+        width: 40%;
+        text-align: center;
+    }
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer {
+    background-color: $crimson;
+    display: grid;
+    padding: 15px 0px;
+}

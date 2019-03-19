@@ -26,7 +26,8 @@ github_username:  Tarasjan
 markdown: kramdown
 theme: jantar-theme
 sass:
-sass_dir: jantar-theme/_sass
+  sass_dir: jantar-theme/_sass
+  style: compressed
 plugins:
   - jekyll-feed
 

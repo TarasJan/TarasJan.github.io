@@ -16,7 +16,7 @@
 title: Jan Taras
 email: jan.taras29@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal site of a software enineer by the name of Jan Taras
+  Personal site of a software engineer by the name of Jan Taras
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -24,12 +24,14 @@ github_username:  Tarasjan
 
 # Build settings
 markdown: kramdown
+remote_theme: TarasJan/jantar-theme
 theme: jantar-theme
 sass:
   sass_dir: jantar-theme/_sass
   style: compressed
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

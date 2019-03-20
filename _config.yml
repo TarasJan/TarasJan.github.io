@@ -31,14 +31,14 @@ subsections:
 
 # Build settings
 markdown: kramdown
-# remote_theme: TarasJan/jantar-theme
+remote_theme: TarasJan/jantar-theme
 theme: jantar-theme
 sass:
   sass_dir: jantar-theme/_sass
   style: compressed
 plugins:
   - jekyll-feed
-#  - jekyll-remote-theme
+ - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

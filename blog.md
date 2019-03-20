@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About
-permalink: /about/
+title: Blog
+permalink: /blog/
 ---
 
 👷 Still under construction 👷

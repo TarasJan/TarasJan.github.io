@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Personal site of a software engineer by the name of Jan Taras
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+twitter_username: jan_taras
 github_username:  Tarasjan
 linkedin_username: jan-taras-0a7116141
 facebook_username: jan.taras.9
@@ -38,7 +38,7 @@ sass:
   style: compressed
 plugins:
   - jekyll-feed
- - jekyll-remote-theme
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -2,17 +2,10 @@
 title: Personal page of Jan Taras
 ---
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="{{ "jantar-theme/assets/css/main.css" | prepend: site.baseurl }}">
-    {% include contact_icons.html %}
-    <title>{{ page.title }}</title>
-  </head>
   <body>
-    <header class="">{{ "Personal Page of Jan Taras" }}</header>
-    <nav><table><tr><td>About</td><td>Blog</td><td>Contact</td></tr></table></nav>
+    {% include head.html %}
+    {% include header.html %}
     <div class="main_block">
-      <aside>Navigation</aside>
       <article>{{content}}</article>
     </div>
     {% include footer.html %}

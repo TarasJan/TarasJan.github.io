@@ -31,7 +31,7 @@ subsections:
 
 # Build settings
 markdown: kramdown
-remote_theme: TarasJan/jantar-theme
+remote_theme: TarasJan/jantar-theme@v0.1
 theme: jantar-theme
 sass:
   sass_dir: jantar-theme/_sass

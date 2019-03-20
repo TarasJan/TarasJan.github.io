@@ -21,17 +21,24 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  Tarasjan
+linkedin_username: jan-taras-0a7116141
+facebook_username: jan.taras.9
+
+subsections:
+  - about
+  - blog
+  - contact
 
 # Build settings
 markdown: kramdown
-remote_theme: TarasJan/jantar-theme
+# remote_theme: TarasJan/jantar-theme
 theme: jantar-theme
 sass:
   sass_dir: jantar-theme/_sass
   style: compressed
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+#  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

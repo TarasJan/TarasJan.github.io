@@ -1,0 +1,25 @@
+
+
+
+nav {
+    background-color: $crimson;
+}
+
+table {
+    width: 100%;
+}
+
+.main_block {
+    display: flex;
+    align-items: stretch;
+
+    article {
+        margin: 0px auto;
+        width: 40%;
+        text-align: center;
+    }
+}
+
+@import 'base.scss';
+@import 'header.scss';
+@import 'footer.scss';

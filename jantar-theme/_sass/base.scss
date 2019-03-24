@@ -1,0 +1,21 @@
+body {
+    margin: 0px auto;
+    text-align: center;
+    background-color: $light_red;
+    font-family: 'Roboto Mono', monospace;
+    color: $dark_gray;
+}
+
+
+
+.link {
+    color: $dark_crimson;
+    text-decoration: none;
+    &:visited {
+        color: $dark_crimson;
+    }
+
+    &:hover {
+        color: $white;
+    }
+}

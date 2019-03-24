@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jantar-theme"
-  spec.version       = "0.1.0"
+  spec.version       = "0.2.0"
   spec.authors       = ["jan.taras29@gmail.com"]
   spec.email         = ["jan.taras29@gmail.com"]
 

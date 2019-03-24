@@ -1,0 +1,12 @@
+.blog-list {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: justify;
+
+    a.link {
+        color: $dark_gray;
+        &:hover {
+            color: $white;
+        }
+    }
+}

@@ -29,9 +29,11 @@ subsections:
   - blog
   - contact
 
+excerpt_separator: <!--more-->
+
 # Build settings
 markdown: kramdown
-remote_theme: TarasJan/jantar-theme@v0.1
+remote_theme: TarasJan/jantar-theme@v0.2
 theme: jantar-theme
 sass:
   sass_dir: jantar-theme/_sass

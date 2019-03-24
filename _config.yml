@@ -33,11 +33,11 @@ excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
-remote_theme: TarasJan/jantar-theme@v0.2
+remote_theme: TarasJan/jantar-theme
 # theme: jantar-theme
-# sass:
-#  sass_dir: jantar-theme/_sass
-#  style: compressed
+sass:
+ sass_dir: jantar-theme/_sass
+ style: compressed
 plugins:
   - jekyll-feed
   - jekyll-remote-theme

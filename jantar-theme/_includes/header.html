@@ -1,9 +1,12 @@
-<header class="">{{ "Personal Page of Jan Taras" }}</header>
+<header class="">
+    <span>{{ "Personal Page of Jan Taras" }}</span>
+    
+</header>
 <nav>
     <table>
         <tr>
             {% for name in site.subsections %}
-            <td><a href="/{{name}}" class="nav_link link">{{name | capitalize}}</a></td>
+            <td><a href="/{{name}}" class="nav_link link">{{name | capitalize}}</a><div class="buffer-header"></div></td>
             {% endfor %}
         </tr>
     </table>

@@ -33,14 +33,17 @@ excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
-remote_theme: TarasJan/jantar-theme@v0.2
-# theme: jantar-theme
-# sass:
-#  sass_dir: jantar-theme/_sass
-#  style: compressed
+# remote_theme: TarasJan/jantar-theme@v0.2
+theme: jantar-theme
+
+includes_dir: jantar-theme/_includes
+layouts_dir: jantar-theme/_layouts
+sass:
+ sass_dir: /jantar-theme/_sass
+ style: compressed
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+#  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -4,7 +4,6 @@ title:  "Software Engineer's Library Part 1"
 date:   2018-12-02 9:39:52 +0100
 categories: engineering software
 ---
-{% include post_title.html title=page.title url=page.url %}
 
 #### "Rise and Resurrection of the American Programmer" by Ed Yourdon
 

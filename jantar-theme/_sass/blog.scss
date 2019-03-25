@@ -1,4 +1,4 @@
-.blog-list {
+.blog-content {
     list-style-type: none;
     text-decoration: none;
     text-align: justify;
@@ -8,5 +8,13 @@
         &:hover {
             color: $white;
         }
+    }
+
+    .post-title {
+        margin-bottom: 5px; 
+    }
+
+    .post-date {
+        color: $gray;
     }
 }

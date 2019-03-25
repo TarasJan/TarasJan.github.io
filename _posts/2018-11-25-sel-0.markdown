@@ -4,7 +4,6 @@ title:  "Software Engineer's Libarary Part 0"
 date:   2018-11-25 9:39:52 +0100
 categories: engineering software
 ---
-{% include post_title.html title=page.title url=page.url %}
 
 Picking up software articles to read in the second decade of the 21st century is hard. Not because the process of reading has suddenly become more effort consuming or that we suffer from lack of interesting materials out there. <!--more-->
  Quite the contrary. Everyday we are flooded with an abundance of content that we may find interesting according to ourselves or the algorithms constantly grinding the data we sew across the web. Machine learning, blockchain, 50 new JavaScript frameworks since last week, new alternative to MVC approach - all of those screaming for our attention.

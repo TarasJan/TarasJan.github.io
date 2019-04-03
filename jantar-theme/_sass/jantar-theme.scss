@@ -16,7 +16,26 @@ table {
     article {
         margin: 0px auto;
         width: 60%;
+        padding: 0px 3%;
+        background-color: $article_red;
         text-align: center;
+    }
+}
+
+.profile-photo {
+    margin: 0px auto;
+    text-align: center;
+    padding: 15px 0px;
+    object-fit: scale-down;
+}
+
+.about-photo {
+    margin: 0px auto;
+    text-align: center;
+    padding: 15px 0px;
+    img {
+        max-width: 250px;
+        height:auto;
     }
 }
 

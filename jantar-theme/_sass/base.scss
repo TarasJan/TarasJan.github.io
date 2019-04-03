@@ -11,6 +11,17 @@ article p {
     text-align: justify;
 }
 
+a {
+    color: $dark_crimson;
+    text-decoration: none;
+    &:visited {
+        color: $dark_crimson;
+    }
+
+    &:hover {
+        color: $white;
+    }
+}
 
 .link {
     color: $dark_crimson;

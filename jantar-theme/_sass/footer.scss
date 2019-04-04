@@ -1,15 +1,20 @@
 
 footer {
-    background-image: linear-gradient($crimson,90%, $light_red);
+    background-color: $crimson;
     display: grid;
-    padding: 0px 15px 0px 0px;
 
     .buffer-footer {
-        background-image: linear-gradient($light_red, $crimson);
         height: 20px;
+    }
+
+    .link-bar {
+        font-size: 20px;
     }
 }
 
 .fa.link {
-    padding: 5px;
+    margin: 5px;
+    &:hover {
+        -webkit-transform: scale(1.4);
+    }
 }

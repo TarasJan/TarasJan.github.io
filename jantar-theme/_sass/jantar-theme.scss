@@ -26,7 +26,10 @@ table {
     margin: 0px auto;
     text-align: center;
     padding: 15px 0px;
-    object-fit: scale-down;
+    img {
+        max-width: 600px;
+        height:auto;
+    }
 }
 
 .about-photo {

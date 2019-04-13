@@ -3,6 +3,15 @@ footer {
     background-color: $crimson;
     display: grid;
 
+    hr {
+        width: 25%;
+        color: black;
+    }
+
+    span:last-child {
+        padding-bottom: 15px;
+    }
+
     .buffer-footer {
         height: 20px;
     }
@@ -16,5 +25,6 @@ footer {
     margin: 5px;
     &:hover {
         -webkit-transform: scale(1.4);
+        transform: scale(1.4);
     }
 }

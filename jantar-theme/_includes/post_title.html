@@ -1,2 +1,10 @@
 <h2 class="post-title"><a class="link" href="{{ include.url }}">{{ include.title }}</a></h2>
 <span class="post-date" >{{ include.date | date: '%d %b %Y' }}</span>
+
+{% assign image_files = site.static_files %}
+{% for myimage in image_files %}
+    {% assign fname = include.title | replace: ' ', '_' %}
+    {% if myimage.basename == fname %}
+        <div class="photo"><img src="/jantar-theme/assets/img/{{ fname }}.png" alt="Post Image"></div>
+    {% endif %}
+{% endfor %}

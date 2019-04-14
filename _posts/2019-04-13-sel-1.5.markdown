@@ -12,7 +12,7 @@ To deliver on the promise below is the review of my most recent reading:
 ## "Understanding ECMAScript 6"
 ### by Nicholas C. Zakas
 
-<div class="photo"><img src="/jantar-theme\assets\img\understandingECMAscript6_cover.png" alt="Cover"></div>
+<div class="photo"><img src="/jantar-theme\assets\img\Software Engineer's Library Part 1.5.png" alt="Cover"></div>
 Having had the opportunity to purchase the book cheaply via the agency of the excellent [Humble Bundle](https://humblebundle.com) I decided to give it a go.
 
 As most likely most of the young modern programmers I have dabbled to an extent with Javascript. I have played around with React, Express, React Native and even plain old JQuery. However, it has never been my primary language of choice having prefered Python in the past and more currently Ruby. I felt obliged though in effort to remain professional to tackle a book on my less proficient language first.

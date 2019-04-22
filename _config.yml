@@ -29,6 +29,7 @@ subsections:
   - blog
   - contact
 
+highlighter: rouge
 excerpt_separator: <!--more-->
 
 # Build settings

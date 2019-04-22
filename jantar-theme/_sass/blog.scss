@@ -5,9 +5,9 @@
     padding: 0px 10px;
 
     a.link {
-        color: $dark_gray;
+        color: $high_font;
         &:hover {
-            color: $white;
+            color: $highlight;
         }
     }
 
@@ -16,6 +16,13 @@
     }
 
     .post-date {
-        color: $medium_gray;
+        color: $theme;
+    }
+}
+
+.post-excrept {
+    &:first-letter {
+        font-weight: bold;
+        font-size: 30px
     }
 }

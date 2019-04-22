@@ -2,7 +2,7 @@
 
 
 nav {
-    background-color: $crimson;
+    background-color: $theme;
 }
 
 table {
@@ -12,12 +12,12 @@ table {
 .main_block {
     display: flex;
     align-items: stretch;
-    background-color: $light_red;
+    background-color: $light_secondary;
     article {
         margin: 0px auto;
         width: 60%;
         padding: 0px 3%;
-        background-color: $article_red;
+        background-color: $article_secondary;
         text-align: center;
     }
 }
@@ -44,6 +44,7 @@ table {
 }
 
 @import 'base.scss';
+@import 'syntax-highlighting.scss';
 @import 'header.scss';
 @import 'footer.scss';
-@import 'blog.scss'
+@import 'blog.scss';

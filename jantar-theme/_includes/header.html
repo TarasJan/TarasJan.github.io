@@ -1,12 +1,10 @@
-<header class="">
-    <span>{{ "Personal Page of Jan Taras" }}</span>
-    
-</header>
-<nav>
-    <table>
+
+<nav class="navbar">
+<div class="navbar-logo"><div class="navbar-logo__marquee"><marquee>Personal Page of <a href="/about" class="link">Jan Taras</a></marquee></div></div>
+    <table  class="navbar-table">
         <tr>
             {% for name in site.subsections %}
-            <td><a href="/{{name}}" class="nav_link link">{{name | capitalize}}</a><div class="buffer-header"></div></td>
+            <td><a href="/{{name}}" class="navbar-link link">{{name | capitalize}}</a></td>
             {% endfor %}
         </tr>
     </table>

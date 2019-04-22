@@ -1,13 +1,10 @@
 
 $white: #ffffff;
-$light_gray: darken($white, 20%);
-$gray: darken($white, 40%);
-$medium_gray: darken($white, 60%);
-$dark_gray: darken($white, 80%);
-$dark_crimson: #941600;
+$dark_theme: darken(#61892F, 20%);
+$theme: #86C232;
+$light_secondary: lighten(#282828, 10%);
+$article_secondary:#6B6E70;
 
-$crimson: lighten($dark_crimson, 50%);
-$light_crimson: lighten($dark_crimson, 60%);
-
-$light_red: #e0c2c2;
-$article_red: darken($light_red, 5%);
+$high_font: black;
+$font: #282828;
+$highlight: $white;

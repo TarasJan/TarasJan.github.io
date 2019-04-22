@@ -1,18 +1,45 @@
-header {
-    background-image: linear-gradient($light_red, $crimson);
-    font-size: 30px;
-    padding: 40px 0px;
+.navbar-logo
+{
+    font-weight: bold;
+    color: $high-font;
+    width: 25.5%;
+    display: flex;
+    align-content: space-around;
+    font-size: 20px;
 
+    .navbar-logo__marquee
+    {
+        height: 30px;
+        margin: auto 0px;
+    }
+}
+
+.navbar-table
+{
+    padding-right: 17%;
 }
 
 .buffer-header {
-    background-image: linear-gradient($crimson, $light_red,);
+    background-color: $theme;
     min-height: 20px;
 }
 
-.nav_link {
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-link {
     font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 80px;
     width: 100%;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 tr {
@@ -30,6 +57,6 @@ td {
     width: 100%;
 
     &:hover {
-        background-color: $dark_crimson;
+        background-color: $dark_theme;
     }
 }

@@ -21,6 +21,7 @@ gem "jekyll-remote-theme"
 group :jekyll_plugins do
   gem "jekyll-remote-theme"
   gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-seo-tag", "~> 2.6.1"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

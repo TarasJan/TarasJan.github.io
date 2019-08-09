@@ -44,6 +44,7 @@ sass:
  style: compressed
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 #  - jekyll-remote-theme
 
 # Exclude from processing.

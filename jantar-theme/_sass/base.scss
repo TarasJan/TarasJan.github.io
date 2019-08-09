@@ -6,6 +6,11 @@ body {
     color: $font;
 }
 
+pre.highlight {
+    white-space: pre-wrap;
+    color: white;
+}
+
 article p {
     text-align: justify;
 }

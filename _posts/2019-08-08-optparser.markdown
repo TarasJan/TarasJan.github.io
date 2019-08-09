@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Optparse - CLI done properly"
-date:   2019-08-18 9:33:52 +0100
+date:   2019-08-08 9:33:52 +0100
 categories: ruby programming optparse
 ---
 
@@ -157,7 +157,7 @@ end.parse!
 ```
 
 The example above shows an option with non-mandatory parameter (which is signigied by square brackets). This method will simply greet the person with the name provided, or in case the option was not parametrised it will just greet the user:
-]```
+```
 dummy_parser --greet Greg
 ```
 

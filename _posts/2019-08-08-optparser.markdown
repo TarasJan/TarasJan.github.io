@@ -15,13 +15,13 @@ A program or a part of the software responsible for interacting with the user is
 
 There is a particular module in the Ruby standard library (with its equivalent also present in Python) which rarely receives the attention it deserves. Which is a pity since it makes standardisation of your CLI programs a fairly easy task.
 
-https://ruby-doc.org/stdlib-2.6.1/libdoc/optparse/rdoc/OptionParser.html
+[OptionParser](https://ruby-doc.org/stdlib-2.6.1/libdoc/optparse/rdoc/OptionParser.html)
 
-This article presents some of the cooler features of the module which you can implement in your own CLI based programs:
+This article presents some of the cooler features of the module which you can implement in your own CLI based programs.
 
 The full example containing all the features described in the article can be found at:
 
-https://rubygems.org/gems/dummy_parser
+[https://rubygems.org/gems/dummy_parser](https://rubygems.org/gems/dummy_parser)
 
 ### Basics
 
@@ -287,9 +287,8 @@ Hello Ann!
 
 Note that params that have a block are already handled and they are wiped from the output. This is one of the advantages the blockless options have.
 
-This is as far as this article goes. Feel free to play around with dummy_parser, and check out the documentation for optparser for more of its cool features and options:
+This is as far as this article goes. Feel free to play around with dummy_parser, and check out the [documentation](https://ruby-doc.org/stdlib-2.6.1/libdoc/optparse/rdoc/OptionParser.html) for optparser for more of its cool features and options.
 
-https://ruby-doc.org/stdlib-2.6.1/libdoc/optparse/rdoc/OptionParser.html
 
 Cheers,
 

@@ -1,0 +1,102 @@
+---
+layout: post
+title:  "Software Engineer's Library Part 2"
+date:   2019-09-10 9:33:52 +0100
+categories: books dhh business software
+---
+
+Having a blog is akin to having a baby. You have to feed it sometimes so that it does not die.
+
+This is what I am doing with this little review. I have been brewing a delicious post on rendering plots in matplotlib, but more on that "soon". In the meantime please enjoy this little special review of a little special book.
+
+<div class="photo"><img src="/jantar-theme\assets\img\Software Engineer's Library Part_2.png" alt="Cover"></div>
+
+
+# Rework 
+## by Jason Fried and David Heinmeier Hanson
+
+Being a primarily Rails programmer I feel like my life is now enmeshed with that of David Heinmeier Hanson. I am surrounded by his tweets, his old comments on rails repo and YouTube algorithm provides me with a steady supply of his prior Railsconf talks.
+
+This book has nothing to do with Rails luckily, but more with approaches and circumstanes that made 37signals and Rails possible.
+
+The book is extremely short being admittedly a collection of short training materials and notes converted into a book. But this turns out to be the books advantage as it becomes a relatively short read. The book is divided into few chapters each aggregating a few mini essays about particular aspect of running a business. This format proved extremely efficient for me, as you can complete a whole essay from the book during a relatively short commute on a bus or a train.
+
+Fried and DHH bring advice on how to develop, run and maintain a successful business. They back it with the success of their 37signals and Rails framework. As someone dealing with both of those I cannot argue with that.
+
+The book is a nebula of various topics and approaches which is not surprising as they were written by different employees of 37signals, so after reading the book each reader will that some chapters struck a chord with him while others did not.
+
+Here is a brief selection of chapters I have found more insightful and entertaining or in some cases rightfully iconoclast.
+
+### Sell your by-product
+
+Every product has a by product - figure out what it is and sell it. In case of 37signals the by-product was this book (Ouch! Touche!)
+
+### Planning is guessing
+
+Times are constantly changing and we are not seers with a crystal balls to always properly tell which way the wind is blowing. Overcommitment or inflexibility in plans in the face of ever-shifting work can be as poisonous as having no plans at all. This point has also been noted by some experts on planning like the <a href='https://en.wikipedia.org/wiki/Critical_chain_project_management'>CPM</a> method.
+
+### Scratch your own itch
+
+When solving our own problems we are most efficient (can sound depressing at times). When you are delivering a product of which you are also a consumer you can then easily find flaws, regressions or inefficient UI, unlike when you are just coding for someone else. Coding stuff you like is of course only possible for few chosen but nevertheless any hobbyist (or hobbyst turned startup) programmer will most likely agree with the point of this chapter.
+
+### Outside money is plan Z
+
+This is some interesting point the book proposes. That you should start your business with as little external capital as possible. It argues that the investment always comes at a price and that price is inflexibility and lack of freedom on how to run your business. Not being a business owner I cannot validate those points, however coming from a country with little domestic investment, I am glad such point is made here.
+
+### Focus on what won't change
+
+When desinging your products you can often fall into the pitfall of focusing on the wrong things. Should I use this framework? What if I were to go into VR. I want to implement microtransactions. Your focus lands on the recent developments and trends which are by nature fleeting. You should focus on what the customer wants and will always want regardless of circumstances which for example in case of accounting software is reliability and in case of gaming would be fun. Choose the right focus and you will (likely) succeed.
+
+### Interruption is the enemy of productivity
+
+I cannot stress the importance of this chapter enough. This book was written in 2010 when Slack was not there yet, Microsoft did not buy Skype and people were not yet used to hyper stimulation of social media that much. Today we are flooded at work with messages that convey and entail little. The only thing this bombardment does is distracts us from the actual work. We should minimalize the effect they have on us any way possible. Book suggests several remedies. I cannot stress the importance of this chapter. Read it please!!!
+
+### Don't be a hero
+
+There is nothing wrong with putting few extra hours of sweat from time to time but do not strain yourself. If you have a blocker it would be of greater benfit if you took a break or switch to another task instead of banging your head againsth the wall for 4 hours.
+
+### Make tiny decisions
+
+Big decisions are hard to deliver and change when the change occurs. It would be better to make small commitments and deliver them. You will walk a winding path but you will get there.
+
+### Say no by default
+
+Customer does not always know what is best for your business make product not tailored for a specific customer or group, but one you wanna make. If you focus on one customer then they may still leave you one day nad you are left with a product that is not suitable for anybody else.
+
+### Be at-home good
+
+Make product that does not just look good pre purchase but is useful and pleasure to use months or years after purchase. I feel a hint of Danish __hygge__ in this one.
+
+### Go behind the scenes
+
+Show how you make your product - this will make pepole interested in you, and will give you a better understanding of your business and of course will generate some buzz around your business.
+
+### Everything is marketing
+
+Make sure that you are consistent in all areas of the business. The company is a mechanism and its design is the best marketing.
+
+### Forget about formal education
+
+Skills, approaches matter. Better does not always equte more educated.
+
+### The best are everywhere
+
+Do not forget that you do not have to hire people from your local area or even country. Nowadays talent is everywhere and with modern remote work technology you can recruit the best people all across the globe.
+
+### Everyone on the frontlines
+
+When dealing with external actors like customers or investors it is of benefit to delegate not only the people that were hired for that but also other employees. It will help them develop new skills, maybe it will augument customer service and most importantly will give them a better understanding of the environment in which your business operates. 
+
+### They are not 13
+
+Your emplyees are not children. You do not need policing or baeurocracy to manage them. You won't get 8 hours of pure labour out of them every day. Youtube at work cannot kill productivity, intrusive policing can.
+
+...
+
+And many other insightful points for which this review is too short. Our duo attacks in a skillful and thought out manners icons such as meetings, all nighters, start ups and many more while ushering new concepts and ideas to reinvent the landscape of shattered ivory towers.
+
+I wholeheartedly recommend this book for any employee, startup wannabe, or business owner especially if you have doubts about some aspects of the way things are run at your company. You will find a ton of inspiration here, in proper doses. Unconventional, fun and neatly packaged.
+
+I give the book 4.5 ActiveRecords out of 5. Wholeheartedly recommended. Does the work.
+
+Cheers

@@ -9,8 +9,6 @@ Having a blog is akin to having a baby. You have to feed it sometimes so that it
 
 This is what I am doing with this little review. I have been brewing a delicious post on rendering plots in matplotlib, but more on that "soon". In the meantime please enjoy this little special review of a little special book.
 
-<div class="photo"><img src="/jantar-theme\assets\img\Software Engineer's Library Part_2.png" alt="Cover"></div>
-
 
 # Rework 
 ## by Jason Fried and David Heinmeier Hanson

@@ -20,6 +20,11 @@
     }
 }
 
+.section {
+    text-align: justify;
+    padding: 10px calc((100% - 768px)/2);
+}
+
 .post-excrept {
     &:first-letter {
         font-weight: bold;

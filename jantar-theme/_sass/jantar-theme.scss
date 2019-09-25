@@ -12,7 +12,10 @@ table {
 .main_block {
     display: flex;
     align-items: stretch;
+    height: auto;
     background-color: $light_secondary;
+    flex-grow: 1;
+    justify-content: center;
     article {
         margin: 0px auto;
         width: 60%;

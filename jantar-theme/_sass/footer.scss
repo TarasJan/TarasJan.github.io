@@ -2,6 +2,8 @@
 footer {
     background-color: $theme;
     display: grid;
+    bottom: 0;
+    width: 100%;
 
     hr {
         width: 25%;

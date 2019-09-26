@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact
+permalink: /contact/
 ---
 
 {% include profile_photo.html %}

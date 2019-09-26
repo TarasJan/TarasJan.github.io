@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Contact
-permalink: /contact/
 ---
 
 {% include profile_photo.html %}
@@ -11,5 +10,3 @@ permalink: /contact/
 {{ site.email }}
 
 **If wou wish to follow my social media activity or check out my LinkedIn Page, please use the links below:**
-
-{% include contact_icons.html %}

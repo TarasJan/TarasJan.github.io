@@ -33,6 +33,10 @@ table {
         max-width: 600px;
         height:auto;
     }
+    img.rounded {
+        clip-path: circle(50% at 50% 50%);
+        box-shadow: 15px;
+    }
 }
 
 .photo {

@@ -6,6 +6,9 @@ permalink: /about/
 
 # Hello
 
+<div class="profile-photo"><img class='rounded' src="/jantar-theme/assets/img/me.jpg" alt="Me"></div>
+<hr/>
+
 <section class="section">
 My name is Jan Taras.
 I am a Software Engineer currently employed by Sage.

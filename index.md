@@ -4,10 +4,12 @@
 
 layout: default
 title: Personal page of Jan Taras
+redirect_from: '/about/'
 ---
 
 
 # Hello
+<hr/>
 <div class="profile-photo"><img class='rounded' src="/jantar-theme/assets/img/me.jpg" alt="Me"></div>
 <hr/>
 

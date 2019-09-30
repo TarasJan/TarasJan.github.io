@@ -1,18 +1,18 @@
 
 footer {
     background-color: $theme;
+
     display: grid;
     bottom: 0;
     width: 100%;
 
     hr {
         width: 25%;
-        color: black;
     }
 
     span:last-child {
+        color: black;
         padding-bottom: 15px;
-        font-weight: bold;
     }
 
     .buffer-footer {

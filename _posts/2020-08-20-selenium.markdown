@@ -1,0 +1,70 @@
+---
+layout: post
+title:  "Hello I Love You"
+date:   2020-08-20 9:33:52 +0200
+categories: articles
+---
+
+In the recent weeks I have been running a small experiment on my LinkedIn page.
+I decided to automate my networking process with the recruiters so that the hunt for new
+opportunities would not be as time consuming as if it was done manually.
+
+I decided to write a script in Selenium that would do the following:
+
+1. Login to my LinkedIn page
+2. Go to the network tab
+3. Invite all the people that are recruiters from the recommendations
+4. Scroll endlessly through the recommended list inviting people until a certain number of iterations is done
+
+Having written the following script I have linked it to my Windows task scheduler so that every time I start up my machine, the script would start to send the invites.
+
+As you may suspect this would result in a ton of invites to the people I have never heard of.
+You would be right. I was curious how my invites would be treated,  what would be the response rate, and how efficient this process would be. 
+
+The experiment lasted for 3 weeks and has provided me with some insights about recruitment, human behaviour and
+networking. I decided to summarise them in the list below. At the bottom of the post you will find a link to gist containing the Selenium script that I utilized.
+
+## 1. First the good news - Spamming = views
+
+![alt text](https://media.giphy.com/media/m2Q7FEc0bEr4I/giphy.gif "All good")
+
+
+As you may suspect the script did generate more traffic and interest in my profile without much effort. The effect of the script can be showcased in a few screenshots below (increase over the span of 3 weeks):
+
+Increase in views:
+<img src="/jantar-theme/assets/img/1.PNG" alt="Post Image">
+
+Increase in contacts:
+
+**221** => **342**
+
+I won't show the exact increase in job offers however I can say I got 3 times the usual amount ;)
+
+
+## 2. Do I know this guy - does not matter...
+
+![alt text](https://media.giphy.com/media/uvnKjyhVk47aU/giphy.gif "Hello")
+
+An unsettling behaviour I have noticed is that the number of views vs number of invites accepted was like one to 5. I do not claim to be a saint regarding whom I invite to my network, though the amount of people who accepted my invite without even checking who I was was a little unsettling to me. Not a soul has enquired why they got the invite if they never met me in the real or virtual life before.
+
+## 3. The snowball effect
+
+![alt text](https://media.giphy.com/media/l41YpVmu98h8hEgfe/giphy.gif "Snowball")
+
+
+Since the second week of running the script I have noticed that I have started revceiving invites from recruiters even when the script was not running - my theory was that once the script has invited enough nodes from other peoples network my profile was pushed to other peoples' recommendation, thus generating additional traffic.
+
+## 4. Food for thought and the question of authenticity
+
+![alt text](https://media.giphy.com/media/mBaNKEmk9SUKs/giphy.gif "Thinking")
+
+Despite having achieved what I wanted, and found the job opportunity I was looking for with this tiny script of mine I feel a certain unnerving itch afterwards. There is a certain air of artificiality about the LinkedIn as a platform that I feel is seldom brought up. I feel like it is extremely easy to cheat on Linkedin. I used a mild version of cheating with this script by broadening my horizon of opportunities and I got the expected results. I was not penalized or notified for using a script that spammed hundreds of invites that required dozens of login. The LinkedIn platform allows that. But what if someone was to take it even further and use such automation for getting the skills confirmations or reviews? What are the odds someone is not using such tech already? Maybe it would be someone you are about to hire / maybe somebody you already work with? Working with a fluke is a terrible prospect. Digital platforms that allow mass communication also allow mass fakeness, which the recipients are unable to verify. Be wary on your recruitment voyages my digital sailors ⛵👋
+
+
+You can find the link to the script I used below. It requires Python 3 with recent Selenium driver version installed. You are free to use it for commercial and non-commercial purposes:
+
+**[Click here for the script](https://gist.github.com/TarasJan/bc8c7f8e26f686e263a0385b8cedc75d)**
+
+Cheers and feel free to check me out on LinkedIn before my script sends you the invite ;)
+
+Jan Taras

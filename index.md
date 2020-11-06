@@ -14,7 +14,7 @@ redirect_from: '/about/'
 <hr/>
 
 <section class="section">
-My name is Jan Taras. I am a Software Engineer currently employed by Sage. I write web applications in Ruby and Javascript. I am a graduate of Warsaw University of Technology in Automation and Robotics, currently studying Computer Science at Polish-Japanese Academy of Information Technology.
+My name is Jan Taras. I am a Software Engineer currently employed by Codequest. I write web applications in Ruby and Javascript and Python. My previous employer was Sage. I am a graduate of Warsaw University of Technology in Automation and Robotics, and have Msc. in Computer Science from Polish-Japanese Academy of Information Technology.
 </section>
 
 <section class="section">

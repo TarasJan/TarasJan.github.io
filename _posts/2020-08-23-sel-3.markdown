@@ -38,7 +38,7 @@ Waste can be understood in this context as all the human actions and efforts wit
 
 Author provides and describes a broad toolset for dealing with and reducing waste. A reader will be quickly introduced to mental models of a startup and how each part of the model shapes and interacts with each other.
 
-<img src="/jantar-theme/assets/img/vsp_pyramid.png" alt="vsp-pyramid">
+<img src="/assets/img/vsp_pyramid.png" alt="vsp-pyramid">
 
 The author proposes that at the core of each entreprise is a vision. This vision is the underlying cornerstone of all the processes within the startup and should evolve and attune itself to the market and most importantly the customer. 
 
@@ -50,7 +50,7 @@ As you may have noticed in the diagram the author points out two processes for a
 
 Author presents a clean and simple feedback loop to explain how the mental engine of the entreprise should be maintained
 
-<img src="/jantar-theme/assets/img/build-measure-learn.png" alt="build-measure-learn">
+<img src="/assets/img/build-measure-learn.png" alt="build-measure-learn">
 
 ```
 Build - Measure - Learn

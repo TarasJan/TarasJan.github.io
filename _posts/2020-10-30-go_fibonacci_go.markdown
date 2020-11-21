@@ -98,10 +98,10 @@ func fibo3(x int) int {
 I have decied to measure the timing of each calculation with a separate goroutine to keep the calculations separated. In the example I have decided to limit the calculations to the 44th element in the Fibonacci series. The results of the calculations have been dumped throught the common channel to an JSON file and then to matplotlib.
 
 The resulting graph of time for computation of `x` for separate methods looks as follows:
-<img src="/jantar-theme/assets/img/computation.png" alt="Post Image">
+<img src="/assets/img/computation.png" alt="Post Image">
 
 The CPU and thread number utilized corresponds to the time based results:
-<img src="/jantar-theme/assets/img/proc_usage_fibonacci.png" alt="Post Image">
+<img src="/assets/img/proc_usage_fibonacci.png" alt="Post Image">
 
 As it can be derived from the graphs, the usage of recurrence may seem as harmless up to a certain point - however once the execution stack reaches certain depth and width the additional resources it requires put a drastic strain on the whole system. I would advise to be wary of overrelying on the recurrence based solutions especially when the performance is the key concern, and always double chcecking the common approaches you are presented with for tackling a given problems.
 

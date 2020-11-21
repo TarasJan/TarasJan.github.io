@@ -18,7 +18,7 @@ The whole process is heavily data driven and what is more the learner has consta
 
 The effects and my personal stats can be found below:
 
-<img src="/jantar-theme/assets/img/stats.PNG" alt="stats">
+<img src="/assets/img/stats.PNG" alt="stats">
 
 I have been using the software for almost a month and I can wholeheartedly recommend it.
 Link to the app can be found here:

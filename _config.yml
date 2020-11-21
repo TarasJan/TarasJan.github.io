@@ -13,14 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: Jan Taras
 email: jan.taras29@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal site of a software engineer by the name of Jan Taras
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jan_taras
-github_username:  Tarasjan
+twitter: jan_taras
+github:  Tarasjan
 linkedin_username: jan-taras
 facebook_username: jan.taras.9
 medium_username: \@jan.taras29
@@ -35,14 +36,9 @@ excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
-# remote_theme: TarasJan/jantar-theme@v0.2
-theme: jantar-theme
 
-includes_dir: jantar-theme/_includes
-layouts_dir: jantar-theme/_layouts
 sass:
- sass_dir: /jantar-theme/_sass
- style: compressed
+ style: :compressed
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

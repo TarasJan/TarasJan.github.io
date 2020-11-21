@@ -32,7 +32,7 @@ networking. I decided to summarise them in the list below. At the bottom of the 
 As you may suspect the script did generate more traffic and interest in my profile without much effort. The effect of the script can be showcased in a few screenshots below (increase over the span of 3 weeks):
 
 Increase in views:
-<img src="/jantar-theme/assets/img/1.PNG" alt="Post Image">
+<img src="/assets/img/1.PNG" alt="Post Image">
 
 Increase in contacts:
 

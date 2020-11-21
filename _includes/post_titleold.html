@@ -5,6 +5,6 @@
 {% for myimage in image_files %}
     {% assign fname = include.title | replace: ' ', '_' %}
     {% if myimage.basename == fname %}
-        <div class="photo"><img src="/jantar-theme/assets/img/{{ fname }}.png" alt="Post Image"></div>
+        <div class="photo"><img src="/assets/img/{{ fname }}.png" alt="Post Image"></div>
     {% endif %}
 {% endfor %}

@@ -10,7 +10,7 @@ redirect_from: '/about/'
 
 # Hello
 <hr/>
-<div class="profile-photo"><img class='rounded' src="/jantar-theme/assets/img/me.jpg" alt="Me"></div>
+<div class="profile-photo"><img class='rounded' src="/assets/img/me.jpg" alt="Me"></div>
 <hr/>
 
 <section class="section">

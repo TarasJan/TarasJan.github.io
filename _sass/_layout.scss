@@ -206,3 +206,13 @@ blockquote {
         margin: 0 0.75em;
     }
 }
+
+@media screen and (max-width: 480px) {
+  .main-content {
+    float: none;
+  }
+  p {
+    overflow-wrap: break-word;
+    overflow: visible;
+  }
+}

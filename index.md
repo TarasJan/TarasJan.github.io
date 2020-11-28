@@ -20,3 +20,4 @@ My name is Jan Taras. I am a Software Engineer currently employed by Codequest. 
 <section class="section">
 In spare time I ride bike across Warsaw, play board games and paint extremely mediocre paintings.
 </section>
+<hr/>

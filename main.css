@@ -1,0 +1,110 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: #222222;
+}
+.navbar {
+    background:#F97300;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+
+/*  */
+
+.about{
+    padding: 0em;
+    position: relative;
+   }
+.about h1{
+    color:#F97300;
+}
+.about img{
+   border-radius: 50%
+}
+.about span{
+    display: block;
+    position: absolute;
+    left: 115px;
+}
+.about .desc{
+    padding: 2em;
+    border-left:4px solid white;
+}
+.about .desc h3{
+    color: white;
+}
+.about .desc p{
+    line-height:2;
+}
+
+footer {
+    color: white;
+    background-color: #F97300;
+}
+
+/*  */
+
+#profile-photo {
+    padding: 5%;
+}
+
+#open-source {
+    padding: 2%;
+}
+
+#blog {
+    padding: 2%;
+}
+
+footer {
+    padding: 2em 0em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a.deco-none {
+    color: #F97300;
+    text-decoration:none;
+}
+
+a.deco-none.footer-link {
+    color: white;
+}
+
+/* Particle JS */
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+  
+  /* ---- particles.js container ---- */
+  
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    max-height: 80%;
+  }

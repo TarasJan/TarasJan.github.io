@@ -98,6 +98,11 @@ a.deco-none.footer-link {
     color: white;
 }
 
+.card-img-top {
+    max-height: 200px;
+    object-fit: contain;
+}
+
 /* Particle JS */
 
 canvas {

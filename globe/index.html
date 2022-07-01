@@ -1,0 +1,122 @@
+<html>
+	<head>
+		<title>Globe</title>
+		<meta name="description" content="Globe project demo by Jan Taras" />
+		<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+		<script>
+			function downloadURI(uri, name) 
+			{
+					var link = document.createElement("a");
+					// If you don't know the name or want to use
+					// the webserver default set name = ''
+					link.setAttribute('download', name);
+					link.href = uri;
+					document.body.appendChild(link);
+					link.click();
+					link.remove();
+			}
+
+			function redirect(uri) {
+				window.location.href = uri;
+			}
+
+			AFRAME.registerComponent('github-planet', {
+				init: function () {
+					this.el.addEventListener('click', function (evt) {
+						redirect("https://github.com/TarasJan")
+					});
+				}
+			});
+
+			AFRAME.registerComponent('linkedin-planet', {
+				init: function () {
+					this.el.addEventListener('click', function (evt) {
+						redirect("https://www.linkedin.com/in/jan-taras/")
+					});
+				}
+			});
+
+			
+
+			AFRAME.registerComponent('resume-listener', {
+				init: function () {
+					this.el.addEventListener('click', function (evt) {
+						downloadURI('/resume.pdf', 'resume.pdf')
+					});
+				}
+			});
+		</script>
+	</head>
+	<body>
+	<a-scene>
+		<a-camera  look-controls wasd-controls>
+			<a-cursor color="#FFFF00"></a-cursor>
+		</a-camera>
+			<a-entity 
+			position="-500 1.25 -3" 
+			animation="property: rotation; to: 0 360 0; loop: true; dur: 3650000; easing: linear;"
+			>
+				<a-sphere 
+				light="color: #AFA; intensity: 5.5" 
+				id="sun" 
+				position="0 0 0" 
+				radius="103" 
+				repeat="1 1"
+				color="#DDDD44"
+				shader="flat"
+				>
+				</a-sphere>
+				<a-box 
+					position="400 1.25 -3"
+					src="monolith.png"
+					repeat="1 1"
+					shader="flat"
+					depth="2"
+					height="4"
+					width="0.25"
+					position="0 0 0" 
+					repeat="1 1"
+					resume-listener
+				>
+				</a-box>
+				<a-entity  position="400 1.25 -3" animation="property: rotation; to: 0 360 0; loop: true; easing: linear; dur: 80000" >
+					<a-entity position="7 5 0" text="value: My Resume\nClick it to download\nMy skills are orbiting it\nThe bigger the size\nthe stronger the skill" scale="20 20"></a-entity>
+					
+						<a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 2732000; easing: linear;">
+							<a-entity position="15 2 0" text="value: Ruby on Rails;" scale="10 10"></a-entity>
+							<a-sphere shader="flat" id="Ruby on Rails" position="13 0 0" radius="1" color="#FF0000"></a-sphere>
+							<a-entity position="-11 2 -3" text="value: React;" scale="10 10"></a-entity>
+							<a-sphere shader="flat" id="react" position="-15 0 -3" radius="0.5" color="#0000FF"></a-sphere>
+							<a-entity position="20 2 3" text="value: SQL databases;" scale="10 10"></a-entity>
+							<a-sphere shader="flat" id="sql" position="18 0 3" radius="0.4" color="#FFFF00"></a-sphere>
+							<a-entity position="-7 2 0" text="value: Selenium;" scale="10 10"></a-entity>
+							<a-sphere shader="flat" id="selenium" position="-11 0 0" radius="0.2" color="#DDDDDD"></a-sphere>
+						</a-entity>
+				</a-entity>
+				<a-entity  position="495 1.25 -3">
+					<a-entity position="7 4 0" text="value: This is Earth\nI was born here\nMy resume is orbiting nearby\nUse WSAD and mouse keys to find it;" scale="20 20"></a-entity>
+					<a-sphere src="world.jpeg"  id="globe" position="0 0 0" radius="1" repeat="1 1" animation="property: rotation; to: 0 360 0; loop: true; easing: linear; dur: 10000" color="#0088DD"></a-sphere>
+				</a-entity>
+				<a-entity rotation="0 0 0" position="495 1.25 -3" animation="property: rotation; to: 0 360 0; loop: true; dur: 273200; easing: linear;">
+					<a-entity position="69 2 0" text="value: Moon;" scale="20 20"></a-entity>
+					<a-sphere id="moon" position="60 0 0" radius="0.27" repeat="1 1" animation="property: rotation; to: 0 360 0; loop: true; easing: linear; dur: 273200" color="#DDDDDD"></a-sphere>
+				</a-entity>
+
+				<a-entity github-planet position="342 -1.25 -40">
+					<a-entity position="7 9 0" text="value: I am a Github Planet\nClick me;" scale="20 20"></a-entity>
+					<a-cylinder  radius="10" shader="flat" height="0.25" color="#FFFF44"></a-cylinder>
+					<a-sphere src="gh.png" id="gh" shader="flat" position="0 0 0" radius="5" repeat="1 1" animation="property: rotation; to: 0 360 0; loop: true; easing: linear; dur: 10000" color="#666666"></a-sphere>
+				</a-entity>
+
+				<a-entity linkedin-planet position="404 -1.25 50">
+					<a-entity position="7 9 0" text="value: I am a LinkedIn Planet\nClick me;" scale="20 20"></a-entity>
+					<a-cylinder  radius="7" shader="flat" height="0.25" color="#00FF44"></a-cylinder>
+					<a-box src="li.png" id="li" shader="flat" position="0 0 0" width="5" height="5" depth="5" repeat="1 1" animation="property: rotation; to: 0 360 0; loop: true; easing: linear; dur: 10000" color="#4488FF"></a-box>
+				</a-entity>
+			</a-entity>
+
+			
+			<a-sky src="milky-way.jpeg" ></a-sky>
+		</a-scene>
+	</body>
+</html>

@@ -3,6 +3,7 @@
 		<title>Globe</title>
 		<meta name="description" content="Globe project demo by Jan Taras" />
 		<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+		<script src="https://rawgit.com/Ctrl-Alt-Zen/aframe-mobile-controls/master/components/twoway-motion/twoway-motion.js"></script>
 		<script>
 			function downloadURI(uri, name) 
 			{
@@ -49,7 +50,7 @@
 	</head>
 	<body>
 	<a-scene>
-		<a-camera  look-controls wasd-controls>
+		<a-camera twoway-motion="speed: 35" look-controls wasd-controls>
 			<a-cursor color="#FFFF00"></a-cursor>
 		</a-camera>
 			<a-entity 
